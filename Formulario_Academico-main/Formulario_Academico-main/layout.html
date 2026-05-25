@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Layout com Flexbox</title>
+  <link rel="stylesheet" href="layout.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Minha Página</div>
+    <nav class="menu">
+      <a href="#">Início</a>
+      <a href="#">Serviços</a>
+      <a href="#">Portfólio</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="hero">
+      <h1>Layout com Flexbox</h1>
+      <p>Exemplo com header, main e footer, além de cards distribuídos lado a lado.</p>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <h2>Card 1</h2>
+        <p>Conteúdo de exemplo para demonstrar o comportamento do flex.</p>
+      </article>
+
+      <article class="card">
+        <h2>Card 2</h2>
+        <p>Todos os cards têm a mesma proporção usando <strong>flex: 1</strong>.</p>
+      </article>
+
+      <article class="card">
+        <h2>Card 3</h2>
+        <p>O espaço entre eles é controlado com <strong>gap: 20px</strong>.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Exercício de Flexbox</p>
+  </footer>
+</body>
+</html>
